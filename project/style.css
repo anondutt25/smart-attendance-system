@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f6f9;
+    
+}
+
+
+
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background: #1e3a8a;
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background: #2563eb;
+}
+
+.main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+/* Hover */
+.sidebar a:hover {
+
+    background: #2563eb;
+}
+
+/* Content */
+.main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+/* Topbar */
+.topbar {
+    background: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Button */
+.btn {
+    background: #1f4e79;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Table Design */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th {
+    background: #2563eb;
+    color: white;
+    padding: 12px;
+}
+
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.table tr:hover {
+    background: #f1f5f9;
+}
+
+.btn:hover {
+    background: #163d5c;
+}
+
+/* LOGIN PAGE */
+
+.login-body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    height:100vh;
+
+    background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1d4ed8);
+
+    overflow:hidden;
+}
+
+/* Layout */
+
+.login-wrapper{
+    display:flex;
+    height:100vh;
+}
+
+/* LEFT SIDE */
+
+.login-left{
+
+    width:50%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    padding:50px;
+}
+
+.login-left h1{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+    text-align:center;
+}
+
+.login-left p{
+
+    font-size:24px;
+
+    opacity:0.9;
+}
+
+/* RIGHT SIDE */
+
+.login-right{
+
+    width:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+}
+
+/* LOGIN CARD */
+
+.login-card{
+
+    width:380px;
+
+    background: rgba(255,255,255,0.12);
+
+    padding:40px;
+
+    border-radius:20px;
+
+    backdrop-filter: blur(12px);
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.4);
+
+    color:white;
+}
+
+.login-card h2{
+
+    text-align:center;
+
+    font-size:35px;
+
+    margin-bottom:10px;
+}
+
+.sub{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    color:#ddd;
+}
+
+/* Inputs */
+
+.login-card input{
+
+    width:100%;
+
+    padding:14px;
+
+    margin-bottom:20px;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    outline:none;
+}
+
+/* Button */
+
+.login-card button{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.login-card button:hover{
+
+    background:#1e40af;
+
+    transform:scale(1.03);
+}
