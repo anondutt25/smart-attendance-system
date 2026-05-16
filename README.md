@@ -25,7 +25,7 @@ Passwords are not end to end encrypted, causing a lapse in the system, it stores
 
 Team Name with Student ID ~ 
 Tania Akter 242-025-042  Anon Dutt 242-001-042  Md. Showeb Akhter Srabonto 242-005-042
-Lecturer - Halima Mowla Anna
+Lecturer - Halima Mowla Anna, Computer Science and Engineering Department
 Primeasia University 
 
 
